@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "It is a rock paper scissor game in which you play against software and alexa tells final decision of who won.",
+          "examplePhrases": [
+            "Alexa open rockpaperscissor"
+          ],
+          "keywords": [
+            "rock"
+          ],
+          "name": "RockPaperScissor",
+          "description": "It\u0027s purpose is mainly entertainment. You ask alexa to start the game first . Then you have to choose one out of rock,paper,scissor. The other side computer will generate some random choice and Alexa will at the end announce the result of who won.Hope you like to play it.",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "none",
+      "category": "GAMES",
+      "distributionCountries": [
+        "IN"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:258014922624:function:341755c0-d90b-405c-b2e0-016ffa04a4fd:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-IN": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
